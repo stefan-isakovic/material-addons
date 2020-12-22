@@ -67,6 +67,7 @@ import { QuickListComponent } from './example-components/quick-list/quick-list.c
 import { QuickListDemoComponent } from './component-demos/quick-list-demo/quick-list-demo.component';
 import { TableDemoComponent } from './component-demos/table-demo/table-demo.component';
 import { TableComponent } from './example-components/table/table.component';
+import { CardExpandableComponent } from './example-components/card-expandable/card-expandable.component';
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http, './assets/i18n/');
@@ -101,7 +102,8 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     QuickListDemoComponent,
     QuickListComponent,
     TableDemoComponent,
-    TableComponent
+    TableComponent,
+    CardExpandableComponent
   ],
   imports: [
     CommonModule,
